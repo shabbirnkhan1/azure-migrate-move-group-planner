@@ -1,0 +1,6 @@
+Timeslot,Source server name,Source application,Source process,Destination server name,Destination IP,Destination application,Destination process,Destination port
+2025-06-14 00:00,app1-server,App1,svchost.exe,app2-server,10.0.0.2,App2,httpd.exe,443
+2025-06-14 00:00,app1-server,App1,svchost.exe,db1-server,10.0.0.5,SQL,sqlservr.exe,1433
+2025-06-14 00:00,web1-server,WebApp1,nginx.exe,api1-server,10.0.0.10,API,python.exe,8080
+2025-06-14 00:00,web2-server,WebApp1,nginx.exe,api2-server,10.0.0.11,API,python.exe,8080
+2025-06-14 00:00,admin-server,Admin,rdp.exe,app1-server,10.0.0.1,App1,svchost.exe,3389
